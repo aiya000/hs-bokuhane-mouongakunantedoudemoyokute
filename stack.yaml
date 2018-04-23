@@ -1,0 +1,5 @@
+flags: {}
+packages:
+- .
+- ./brainhack
+resolver: lts-11.6

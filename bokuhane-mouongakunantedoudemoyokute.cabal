@@ -1,0 +1,33 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 719fe6bcba597013852408c67d8a05766781f92512c39195a8db6c076c3ea730
+
+name:           bokuhane-mouongakunantedoudemoyokute
+version:        0.1.0.0
+synopsis:       僕はね、もう音楽なんかどうでも良くて、君のことが好きなんやけど、でも、あの、その、だから楽器を握るんじゃなくて、君の手を握りたいけど、だけれども、僕はもう、こうやって音楽を奏でて、君に言葉を伝えるその術しか持ってないから僕は君のために、歌うもぼ僕のために歌いたいんです！
+description:    僕はね、もう音楽なんかどうでも良くて、君のことが好きなんやけど、でも、あの、その、だから楽器を握るんじゃなくて、君の手を握りたいけど、だけれども、僕はもう、こうやって音楽を奏でて、君に言葉を伝えるその術しか持ってないから僕は君のために、歌うもぼ僕のために歌いたいんです！
+category:       Simple
+homepage:       https://github.com/aiya000/hs-bokuhane-mouongakunantedoudemoyokute
+author:         aiya000
+maintainer:     aiya000 <aiya000.develop@gmail.com>
+copyright:      aiya000
+license:        MIT
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+executable bokuhane
+  main-is: Main.hs
+  hs-source-dirs:
+      app
+  ghc-options: -Wall -Wno-name-shadowing -Wno-unused-do-bind -Wno-orphans -fprint-potential-instances -fprint-explicit-kinds -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , brainhack
+    , safe-exceptions
+    , text
+  other-modules:
+      Paths_bokuhane_mouongakunantedoudemoyokute
+  default-language: Haskell2010

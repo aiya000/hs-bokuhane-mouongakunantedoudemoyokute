@@ -1,0 +1,3 @@
+[submodule "brainhack"]
+	path = brainhack
+	url = https://github.com/aiya000/hs-brainhack

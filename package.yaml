@@ -1,0 +1,33 @@
+name: bokuhane-mouongakunantedoudemoyokute
+version: 0.1.0.0
+category: Simple
+author: aiya000
+maintainer: aiya000 <aiya000.develop@gmail.com>
+copyright: aiya000
+license: MIT
+homepage: https://github.com/aiya000/hs-bokuhane-mouongakunantedoudemoyokute
+description: 僕はね、もう音楽なんかどうでも良くて、君のことが好きなんやけど、でも、あの、その、だから楽器を握るんじゃなくて、君の手を握りたいけど、だけれども、僕はもう、こうやって音楽を奏でて、君に言葉を伝えるその術しか持ってないから僕は君のために、歌うもぼ僕のために歌いたいんです！
+synopsis: 僕はね、もう音楽なんかどうでも良くて、君のことが好きなんやけど、でも、あの、その、だから楽器を握るんじゃなくて、君の手を握りたいけど、だけれども、僕はもう、こうやって音楽を奏でて、君に言葉を伝えるその術しか持ってないから僕は君のために、歌うもぼ僕のために歌いたいんです！
+
+ghc-options:
+  - -Wall
+  - -Wno-name-shadowing
+  - -Wno-unused-do-bind
+  - -Wno-orphans
+  - -fprint-potential-instances
+  - -fprint-explicit-kinds
+
+dependencies:
+  - base >= 4.7 && < 5
+  - brainhack
+  - safe-exceptions
+  - text
+
+executables:
+  bokuhane:
+    main: Main.hs
+    source-dirs: app
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
